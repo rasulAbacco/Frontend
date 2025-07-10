@@ -1,0 +1,64 @@
+.floating-socials {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    z-index: 9999;
+}
+
+.main-icon {
+    background: #7f27ff;
+    color: #fff;
+    border: none;
+    width: 55px;
+    height: 55px;
+    border-radius: 50%;
+    cursor: pointer;
+    font-size: 24px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s;
+}
+
+.main-icon:hover {
+    transform: scale(1.1);
+}
+
+.social-icons {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: absolute;
+    bottom: 70px;
+    right: 5px;
+    gap: 12px;
+    opacity: 0;
+    pointer-events: none;
+    transition: all 0.4s ease;
+}
+
+.floating-socials.open .social-icons {
+    opacity: 1;
+    pointer-events: auto;
+}
+
+.social-icons a {
+    background: #ffffff;
+    color: #7f27ff;
+    width: 45px;
+    height: 45px;
+    border-radius: 50%;
+    display: flex;
+    font-size: 18px;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0 3px 10px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s, background 0.3s;
+}
+
+.social-icons a:hover {
+    transform: scale(1.1);
+    background: #7f27ff;
+    color: #fff;
+}

@@ -1,0 +1,111 @@
+.signup-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 85vh;
+    background: linear-gradient(to right, #7f27ff, #a46bff);
+    padding: 2rem;
+}
+
+.signup-box {
+    background: white;
+    padding: 2.5rem 3rem;
+    border-radius: 16px;
+    box-shadow: 0 8px 30px rgba(0, 0, 0, 0.15);
+    max-width: 450px;
+    width: 100%;
+}
+
+.signup-box h2 {
+    margin-bottom: 1.5rem;
+    text-align: center;
+    color: #202124;
+}
+
+.signup-form .form-group {
+    margin-bottom: 1rem;
+    display: flex;
+    flex-direction: column;
+}
+
+.signup-form label {
+    margin-bottom: 0.4rem;
+    font-weight: 500;
+}
+
+.signup-form input {
+    padding: 0.75rem 1rem;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    font-size: 1rem;
+}
+
+.password-wrap {
+    position: relative;
+}
+
+.toggle-password {
+    position: absolute;
+    right: 10px;
+    top: 8px;
+    background: none;
+    border: none;
+    color: #7f27ff;
+    cursor: pointer;
+    font-size: 0.9rem;
+}
+
+.checkbox-group {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    font-size: 0.9rem;
+    margin: 1rem 0;
+}
+
+.checkbox-group label a {
+    color: #7f27ff;
+    text-decoration: none;
+}
+
+.signup-btn {
+    width: 100%;
+    padding: 0.75rem;
+    background: #7f27ff;
+    color: white;
+    font-weight: 600;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    margin-top: 0.5rem;
+    transition: background 0.3s ease;
+}
+
+.signup-btn:hover {
+    background: #6920d4;
+}
+
+.divider {
+    text-align: center;
+    margin: 1.5rem 0;
+    font-weight: 500;
+    color: #888;
+}
+
+.google-btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0.6rem;
+    background: #f3f3f3;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 0.75rem;
+    font-weight: 500;
+    cursor: pointer;
+}
+
+.google-btn img {
+    width: 20px;
+    height: 20px;
+}

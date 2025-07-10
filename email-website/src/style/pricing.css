@@ -1,0 +1,111 @@
+.pricing-page {
+    padding: 4rem 2rem;
+    background: #f8fafc;
+    font-family: 'Segoe UI', sans-serif;
+    text-align: center;
+}
+
+.pricing-header h1 {
+    font-size: 2.5rem;
+    margin-bottom: 0.5rem;
+}
+
+.pricing-header p {
+    color: #555;
+    margin-bottom: 3rem;
+    font-size: 1.1rem;
+}
+
+.pricing-plans {
+    display: flex;
+    gap: 2rem;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.plan-card {
+    background: #fff;
+    padding: 2.5rem 2rem;
+    border-radius: 16px;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.05);
+    width: 300px;
+    position: relative;
+    transition: transform 0.3s ease;
+}
+
+.plan-card:hover {
+    transform: translateY(-8px);
+}
+
+.plan-card h2 {
+    font-size: 1.5rem;
+    margin-bottom: 0.5rem;
+}
+
+.price {
+    font-size: 2.2rem;
+    color: #7f27ff;
+    margin-bottom: 1rem;
+}
+
+.price span {
+    font-size: 1rem;
+    color: #777;
+}
+
+.plan-card ul {
+    list-style: none;
+    padding: 0;
+    margin: 1.5rem 0;
+    text-align: left;
+}
+
+.plan-card ul li {
+    margin-bottom: 0.8rem;
+    padding-left: 1.2rem;
+    position: relative;
+}
+
+.plan-card ul li::before {
+    content: "✓";
+    color: #7f27ff;
+    position: absolute;
+    left: 0;
+}
+
+.plan-card button {
+    background: #7f27ff;
+    color: #fff;
+    border: none;
+    padding: 0.8rem 1.5rem;
+    border-radius: 8px;
+    cursor: pointer;
+    font-weight: 600;
+    transition: background 0.3s ease;
+}
+
+.plan-card button:hover {
+    background: #6620cc;
+}
+
+.plan-card.popular {
+    border: 2px solid #7f27ff;
+    box-shadow: 0 12px 30px rgba(127, 39, 255, 0.1);
+}
+
+.badge {
+    position: absolute;
+    top: -10px;
+    right: -10px;
+    background: #7f27ff;
+    color: white;
+    font-size: 0.75rem;
+    padding: 0.3rem 0.7rem;
+    border-radius: 8px;
+    font-weight: bold;
+}
+
+.pricing-footer {
+    margin-top: 3rem;
+    color: #555;
+}
